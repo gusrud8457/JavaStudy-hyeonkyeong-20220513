@@ -12,8 +12,8 @@ public class Input05 {
 		a = sc.nextInt();
 		b = sc.nextInt();
 		
-		System.out.println(a>b?">":a<b?"<":a==b?"==":"");
-		System.out.println();
+		System.out.println(a>b?">":a<b?"<":"==");
+		
 		
 
 	}
