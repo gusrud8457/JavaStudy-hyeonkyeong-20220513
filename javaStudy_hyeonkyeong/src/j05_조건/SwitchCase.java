@@ -3,12 +3,12 @@ package j05_조건;
 public class SwitchCase {
 
 	public static void main(String[] args) {
-		int num = 2;
+		int num = 29;
 		char c = 'a';
 		String str = "한재안";
 			
 		
-		switch (num) {
+		switch (num / 10) {
 			case 1 : 
 				System.out.println("case 1");
 				break;
