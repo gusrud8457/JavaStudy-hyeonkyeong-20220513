@@ -18,9 +18,11 @@ package j08_클래스;
  * 
  */
 
+//생성자는 반환하는 자료형(메소드)이 생략(주소값을 반환하기 때문에)되어 있고 Class 명 이름이랑 같다. 
+
 public class Carmain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		Car c1 = new Car();
 		Car c2 = new Car();
 		Car c3 = new Car();
