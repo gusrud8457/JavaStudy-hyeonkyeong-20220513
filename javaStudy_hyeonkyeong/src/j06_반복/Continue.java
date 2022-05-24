@@ -8,7 +8,7 @@ public class Continue {
 			if(i % 2 == 0) {
 				continue; //continue 다음엔 실행 안됨!!
 			}
-			System.out.println(i);
+			System.out.println(i);	
 		}
 
 	}
