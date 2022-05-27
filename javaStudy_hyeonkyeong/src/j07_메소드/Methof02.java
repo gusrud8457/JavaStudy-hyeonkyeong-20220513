@@ -23,7 +23,7 @@ public class Methof02 {
 	}
 	
 	//매개 변수도 있고 반환도 있는 메소드
-	public static String test5(String name,- )
+	public static String test5(String name )
 	
 	
 	
