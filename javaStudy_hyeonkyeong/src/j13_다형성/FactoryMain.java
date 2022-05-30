@@ -10,6 +10,7 @@ public class FactoryMain {
 		Factory computerFactory = new ComputerFactory();
 		
 		smartPhoneFactory.start();
+	
 		computerFactory.start();
 		
 	}

@@ -5,8 +5,8 @@ public class FactoryMain2 {
 	public static void main(String[] args) {
 		Factory[] factorys = new Factory[100];
 		
-//		factorys[0] = new SmartPhoneFactory();
-//		factorys[1] = new ComputerFactory();
+		//factorys[0] = new SmartPhoneFactory();
+		//factorys[1] = new ComputerFactory();
 		
 		for(int i = 0; i < factorys.length; i++) {
 			//삼항연산자, 조건연산자
@@ -15,6 +15,7 @@ public class FactoryMain2 {
 		
 		for(Factory factory : factorys) {
 			factory.start();
+			
 		}
 		
 		int i = 10;
@@ -26,14 +27,15 @@ public class FactoryMain2 {
 		for(Factory factory : factorys) {
 			if(factory instanceof SmartPhoneFactory) {//결과값 true으로 나옴.
 				SmartPhoneFactory spf = (SmartPhoneFactory) factory;
+				spf.showSmartPhone();
 			}else if(factory instanceof ComputerFactory) {
 				ComputerFactory cf = (ComputerFactory) factory;
+				cf.showComputer();
 			}else {
 				System.out.println("다운캐스팅 할 수 없습니다.");
-			}
-			
-			
+			}	
 		}
+
 
 	}
 
