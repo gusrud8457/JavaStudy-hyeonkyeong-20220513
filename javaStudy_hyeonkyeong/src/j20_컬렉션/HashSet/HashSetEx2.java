@@ -36,7 +36,7 @@ public class HashSetEx2 {
 		
 		}
 		
-		iterator = hashSet.iterator();
+		iterator = hashSet.iterator(); // 줄을 세워라는 뜻!
 		
 		while(iterator.hasNext()) {
 			Student student = iterator.next();
