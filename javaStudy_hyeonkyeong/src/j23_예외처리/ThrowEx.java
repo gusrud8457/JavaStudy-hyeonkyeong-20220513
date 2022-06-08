@@ -8,7 +8,7 @@ public class ThrowEx {
 			int i = 0;
 			
 			if(i == 0) {
-				throw new RuntimeException("예외발생");
+				throw new ValidationCustomException("예외발생");
 			}
 			
 			

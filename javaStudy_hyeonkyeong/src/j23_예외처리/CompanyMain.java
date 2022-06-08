@@ -31,7 +31,7 @@ public class CompanyMain {
 		
 		try {
 			companyMain.printCompanies(companies);
-		} catch (NullPointerException e) {
+		} catch (Exception e) {
 			System.out.println("해당 주소에는 Company 객체가 존재하지 않습니다.");
 			e.printStackTrace();
 		}finally {

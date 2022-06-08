@@ -25,19 +25,10 @@ public class PrincipalDetailse {
 			}
 		};
 		
+		grantedAuthority.getRoles(strList).forEach(r -> {System.out.println(r);});
 		
-		
-
-			}
-			
-		};
-		
-		GrantedAuthority grantedAuthority2 = new GrantedAuthorityImpl() {
-			
-			grantedAuthority.getRoles(strList).forEach(r -> {System.out.println(r);});
-			grantedAuthority2.getRoles(strList).forEach(r -> {System.out.println(r);});
-
 	}
 
-	}
+}
+
 	
